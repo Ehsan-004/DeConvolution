@@ -83,12 +83,12 @@ if __name__ == "__main__":
               [1, 1, 1]]
     
     DeConvolution2D(
-        image_path="images/img1.jpg",
+        image_path="images/sample.png",
         kernel=kernel,
         stride=3,
         padding=1,
         fill=0,
         save=True,
-        save_path="images/output.png",
+        save_path="images/sample_output.png",
         show_images=False
     )
