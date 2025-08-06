@@ -39,6 +39,10 @@ Actually first you should do zero-inserting by the number of ```S-1``` (Stride m
 After that you do a simple convolution by stride of one ```s = 1``` <br>
 To control the image size, you should mind the padding and kernel size and also stride.
 
+## Note:
+In neural networks and specially AutoEncoders, The benefit of DeConvolution than other upsampling methodes is that DeConvolution is learnable. In fact, weights of the kernel will be learnt by network as network keeps learning. <br>
+Other methoedes are static and are not learnabel.
+
 
 ## 🧑‍💻 Developer
 
